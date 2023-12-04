@@ -1,9 +1,11 @@
-#routeTour - City Travel Log Web App
+# routeTour - City Travel Log Web App
 
-##Overview
+## Overview
+
 Welcome to routeTour, a web application designed to help users track and log their city travels seamlessly. Whether you're a passionate traveler or someone who enjoys exploring new places, routeTour is your go-to tool for documenting your journey.
 
-##Features
+## Features
+
 Interactive Map Selection: Easily select cities on the map to log your visits.
 Detailed Descriptions: Add rich descriptions and travel notes for each city you explore.
 Date of Visit: Capture the date of your visit to keep a chronological record.
