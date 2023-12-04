@@ -1,0 +1,77 @@
+.btn {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--clr-secondary-1);
+  color: var(--clr-grey-4);
+}
+
+.primary {
+  font-weight: 700;
+  background-color: var(--clr-primary-5);
+  color: var(--clr-grey-2);
+  box-shadow: 8px 8px 12px -8px var(--clr-grey-2);
+}
+
+.back {
+  font-weight: 600;
+  background: none;
+  border: 1px solid currentColor;
+}
+
+.position {
+  font-weight: 700;
+  position: absolute;
+  z-index: 1000;
+  font-size: 1.4rem;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--clr-primary-1);
+  color: var(--clr-grey-8);
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
+
+@media screen and (max-width: 576px) {
+  .position {
+    font-weight: 700;
+    position: absolute;
+    z-index: 1000;
+    font-size: 1.4rem;
+    bottom: 4rem;
+    left: 25%;
+    transform: translateX(-50%);
+    background-color: var(--clr-primary-1);
+    color: var(--clr-grey-8);
+    box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+  }
+
+  .cityNavigate {
+    font-weight: 700;
+    position: absolute;
+    z-index: 1000;
+    font-size: 1.4rem;
+    bottom: 4rem;
+    left: 75%;
+    transform: translateX(-50%);
+    background-color: var(--clr-primary-1);
+    color: var(--clr-grey-8);
+    box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+  }
+
+  .primary-gtm {
+    font-weight: 700;
+    background-color: var(--clr-primary-5);
+    color: var(--clr-grey-2);
+    box-shadow: 8px 8px 12px -8px var(--clr-grey-2);
+    margin-bottom: 2rem;
+  }
+}

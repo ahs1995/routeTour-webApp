@@ -1,0 +1,13 @@
+.logoContainer {
+  width: 100%;
+}
+
+.logo {
+  height: 5.2rem;
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    height: 3.2rem;
+  }
+}

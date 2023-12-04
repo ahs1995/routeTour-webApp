@@ -1,0 +1,92 @@
+.user {
+  position: absolute;
+  top: 4.2rem;
+  right: 4.2rem;
+  background-color: var(--clr-grey-5);
+  padding: 1rem 1.4rem;
+  border-radius: 7px;
+  z-index: 999;
+  box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.userSidebar {
+  position: absolute;
+  top: 4.7rem;
+  right: 3rem;
+
+  padding: 1rem 1.4rem;
+  border-radius: 7px;
+  z-index: 999;
+  box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.userSidebar button:hover {
+  background-color: var(--clr-secondary-1);
+  color: var(--clr-grey-2);
+}
+
+.user img {
+  border-radius: 100px;
+  height: 4rem;
+}
+
+.user button {
+  background-color: var(--clr-primary-5);
+  color: var(--clr-grey-2);
+  border-radius: 7px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 5px 8px 8px -7px var(--clr-grey-3);
+}
+
+.userSidebar button {
+  background-color: var(--clr-grey-5);
+  color: var(--clr-grey-8);
+  border-radius: 7px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 5px 8px 8px -7px var(--clr-grey-3);
+}
+
+@media screen and (max-width: 576px) {
+  .user {
+    position: absolute;
+    top: 3rem;
+    right: 11rem;
+    background-color: var(--clr-grey-2);
+    opacity: 0.7;
+    padding: 0.8rem 1.4rem;
+    border-radius: 7px;
+    z-index: 999;
+    box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .user img {
+    border-radius: 100px;
+    height: 3rem;
+  }
+}

@@ -1,0 +1,84 @@
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.mobileNav {
+  position: absolute;
+  text-align: center;
+  width: calc(100% + (2 * 1.8rem));
+  margin: calc(0px - 1.8rem);
+  height: auto;
+  background-color: var(--clr-grey-2);
+  margin-top: 18rem;
+  animation-name: navModal;
+  animation-duration: 0.8s;
+  opacity: 95%;
+  box-shadow: 0px 5px 12px var(--clr-grey-2);
+}
+
+@keyframes navModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 95%;
+  }
+}
+
+.mobileNav ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+
+.mobileNav ul {
+  padding: 2.5rem;
+}
+
+.closeIcon {
+  margin-bottom: 1rem;
+}
+
+.desktopNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--clr-grey-8);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: var(--clr-secondary-1);
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--clr-primary-5);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--clr-primary-5);
+  color: var(--clr-grey-2);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+  box-shadow: 8px 8px 12px -8px var(--clr-grey-2);
+}
+a.ctaLink:hover {
+  background-color: var(--clr-secondary-1);
+}
