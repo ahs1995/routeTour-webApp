@@ -15,7 +15,7 @@ import SpinnerFullPage from "./components/SpinnerFullPage";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
-import Form from "./components/form";
+import Form from "./components/Form";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
 // Using dynamic imports for bundle optimization
