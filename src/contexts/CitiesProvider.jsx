@@ -6,7 +6,7 @@ import {
   useReducer,
 } from "react";
 
-const CITY_API_URL = "http://localhost:9000";
+const CITY_API_URL = "https://localhost:9000";
 
 const CityContext = createContext();
 
