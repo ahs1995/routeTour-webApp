@@ -6,7 +6,8 @@ import {
   useReducer,
 } from "react";
 
-const CITY_API_URL = "https://localhost:9000";
+const CITY_API_URL =
+  "https://ahs-routetour-webapp.netlify.app/.netlify/functions/mockAPI";
 
 const CityContext = createContext();
 
