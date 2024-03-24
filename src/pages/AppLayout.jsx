@@ -26,11 +26,6 @@ function AppLayout() {
     setRedirectMap(value);
   }
 
-  console.log("redirectMap:", redirectMap);
-  console.log("btnClicked:", btnClicked);
-  console.log("mapLat:", mapLat);
-  console.log("mapLng:", mapLng);
-
   return (
     <div className={styles.app}>
       {!isMobile ? (
