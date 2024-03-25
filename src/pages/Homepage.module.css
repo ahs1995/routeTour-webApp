@@ -31,6 +31,7 @@
   font-size: 1.9rem;
   color: var(--clr-grey-6);
   margin-bottom: 2.5rem;
+  padding: 0 22rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -49,5 +50,6 @@
     font-size: 1.5rem;
     color: var(--clr-grey-6);
     margin-bottom: 2.5rem;
+    padding: 0;
   }
 }
